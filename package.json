@@ -36,10 +36,22 @@
 			}
 		],
 		"menus": {
+			"editor/title": [
+				{
+					"command": "extension.openFileFolder",
+					"group": "openFileFolder"
+				}
+			],			
+			"editor/title/context": [
+				{
+					"command": "extension.openFileFolder",
+					"group": "openFileFolder"
+				}
+			],
 			"explorer/context": [
 				{
 					"command": "extension.openFileFolder",
-					"group": "navigation@1"
+					"group": "navigation@2"
 				}
 			]
 		}
