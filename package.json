@@ -9,18 +9,18 @@
 		"color": "#37699A",
 		"theme": "dark"
 	},
-	"homepage": "https://github.com/chrisdias/vscode-opennewinstance/blob/master/README.md",
+	"homepage": "https://github.com/auchenberg/vscode-open-file-folder/blob/master/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/chrisdias/vscode-opennewinstance.git"
+		"url": "https://github.com/auchenberg/vscode-open-file-folder.git"
 	},
 	"bugs": {
-		"url": "https://github.com/chrisdias/vscode-opennewinstance/issues"
+		"url": "https://github.com/auchenberg/vscode-open-file-folder/issues"
 	},
 	"engines": {
 		"vscode": "^1.0.0"
 	},
-	"license": "SEE LICENSE IN LICENSE.md",
+	"license": "MIT",
 	"categories": [
 		"Other"
 	],
