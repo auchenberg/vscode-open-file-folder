@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) Chris Dias
+Copyright (c) Kenneth Auchenberg
 
 All rights reserved. 
 
