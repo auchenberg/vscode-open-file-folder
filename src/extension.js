@@ -7,7 +7,7 @@ function activate(context) {
     var cmd = vscode.commands.registerCommand('extension.openFileFolder', function (e) {
         let folderName = path.dirname(e.path);
         let folderUrl = vscode.Uri.file(folderName)
-        vscode.commands.executeCommand("vscode.openFolder", folderUrl, false)
+        vscode.commands.executeCommand("vscode.openFolder", folderUrl, true)
     });
 
     context.subscriptions.push(cmd);
