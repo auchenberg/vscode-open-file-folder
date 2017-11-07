@@ -5,7 +5,9 @@ var path = require('path')
 
 function activate(context) {
     var cmd = vscode.commands.registerCommand('extension.openFileFolder', function (e) {
-        let folderName = path.dirname(e.path);
+        const activeTextEditor = vscode.window.activeTextEditor;
+        let file = activeTextEditor.document.uri.path;
+        let folderName = path.dirname(file);
         let folderUrl = vscode.Uri.file(folderName)
         vscode.commands.executeCommand("vscode.openFolder", folderUrl, true)
     });
